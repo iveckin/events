@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url(/img/bg_dark.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center; /* Center the content horizontally */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.green {
+    color: #00c164;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center the links horizontally */
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative; /* Add position relative for absolute positioning */
+    text-decoration: none;
+    border-radius: 30px; /* Add rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.social-links .fb {
+    background-color:#3b5998;
+}
+.social-links .insta {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* Apply linear gradient */
+    background-color: #833ab4 ;
+}
+
+.social-links .meetup {
+    background-color: #ed1c40;
+}
+
+.social-links a i {
+    position: absolute; /* Position the icon absolutely */
+    left: 20px; /* Adjust the left position of the icon */
+    top: 50%; /* Align the icon vertically */
+    transform: translateY(-50%); /* Center the icon vertically */
+    font-size: 40px; /* Adjust the size of the icon */
+    color:white;
+}
+
+.social-links a span {
+    display: block; /* Make the text span the full width of the button */
+    padding-left: 50px; /* Add padding to the left of the text */
+    line-height: 60px; /* Vertically center the text */
+    color: #ffffff; /* Change the color of the text */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    font-weight: bold; /* Make the text bold */
+}
+
+.social-links a:hover {
+    background-color: #00c164;; /* Change background color on hover */
+}
+
+.social-links .insta:hover {
+    background: #00c164; /* Change background color on hover */
+}
+
+.footer {
+    position: fixed; /* Position the footer fixed to the bottom */
+    bottom: 0; /* Align the footer to the bottom of the viewport */
+    width: 100%; /* Make the footer span the entire width */
+    height: 50px;
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    text-align: center;
+    line-height: 50px; /* Center text vertically */
+    font-size: 15px;
+}
+
