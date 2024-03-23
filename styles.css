@@ -48,11 +48,13 @@ h1 {
 
 h2 {
     text-align: center;
+    
     margin-bottom: 50px;
     color: #fff;
     font-size: 20px;
     
 }
+
 
 .green {
     color: #00c164;
@@ -132,7 +134,7 @@ ul {
     width: 100%; /* Make the footer span the entire width */
     height: 30px;
     color: #fff; /* Example text color */
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     text-align: center;
     line-height: 30px; /* Center text vertically */
@@ -140,3 +142,58 @@ ul {
     font-weight: 300;
 }
 
+@media screen and (max-width: 768px) {
+    .social-links a {
+        width: 300px;
+        height: 40px; /* Adjust height for smaller screens */
+    }
+    
+    .social-links a span {
+        display: block; /* Make the text span the full width of the button */
+        padding-left: 50px; /* Add padding to the left of the text */
+        line-height: 40px; /* Vertically center the text */
+        color: #ffffff; /* Change the color of the text */
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+        font-size: 12px;
+    }
+
+    .social-links a i {
+        position: absolute; /* Position the icon absolutely */
+        left: 20px; /* Adjust the left position of the icon */
+        top: 52%; /* Align the icon vertically */
+        transform: translateY(-50%); /* Center the icon vertically */
+        font-size: 30px; /* Adjust the size of the icon */
+        color:white;
+    }
+    
+    h1 {
+        font-size: 40px; /* Decrease font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
+    
+    .footer {
+        position: fixed; /* Position the footer fixed to the bottom */
+        bottom: 0; /* Align the footer to the bottom of the viewport */
+        width: 100%; /* Make the footer span the entire width */
+        height: 30px;
+        color: #fff; /* Example text color */
+        background-color: rgba(0, 0, 0, 0.9);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+        text-align: center;
+        line-height: 30px; /* Center text vertically */
+        font-size: 8px; 
+        font-weight: 300;
+    }
+    
+    video {
+        width: 200%;
+        height: 100%;
+        min-height: auto;
+        min-width: auto;
+        object-fit: fill; /* Ensure the video covers the entire container */
+        object-position:-100px; /* Show the right part of the video */
+    }
+}
